@@ -16,6 +16,7 @@ planes <- data.frame(
   number = tail_no,
   inuse = working
 )
+# 
 print(planes)
 
 #2. Access values in a data frame 
@@ -41,8 +42,9 @@ planes[, c("name", "inuse")]
 planes[1:3, c("name", "inuse")]
 #Create a condition using one of these operators: 
   
-  #==, >, <, >=, <= 
 planes$inuse > 75
 #  Display the TRUE/FALSE values created by your condition.  
 planes[planes$inuse > 75, ]
 #Use the condition to display only the rows where the condition is TRUE. 
+
+print(planes)
