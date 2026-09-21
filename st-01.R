@@ -29,5 +29,5 @@ price_text <- "175"
 price_text * shares
 
 #Rthrows an error here as "" is meant to store a string and looking at the number inside quotation its confused:(
-as.numeric(price_text) * shares  # 7000
+as.numeric(price_text) * shares  
 #as.numeric will convert the text back into a num so it works
